@@ -14,14 +14,15 @@ var lessMiddleware = require('less-middleware');
 
 var app = module.exports = express();
 app.set('port', (process.env.PORT || 5000));
+
 app.use(lessMiddleware(path.join(__dirname, '/public'), {
-	force: true
+	force: true,
+	debug: true
 }));
 app.use(express.static(__dirname + '/public'));
+
 app.use(bodyParser.json());
 app.set('view engine', 'jade');
-
-
 
 app.get('/scarf', function(req, res) {
 	var zip = '80303';

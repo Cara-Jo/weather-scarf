@@ -1,1 +1,1 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);body{font-family:'Roboto',sans-serif}body h1{background:blue}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);.roboto{font-family:'Roboto',helvetica,verdana,arial,sans-serif}body{font-family:'Roboto';font-weight:300}body h1{background:#8067ac;color:white}

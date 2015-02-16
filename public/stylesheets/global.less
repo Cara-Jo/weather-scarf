@@ -1,8 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+@import 'mixins.less';
+
 body {
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto';
+    .light-font;
+
     h1 {
-        background: blue;
+        background: @purple;
+        color: white;
     }
 }
